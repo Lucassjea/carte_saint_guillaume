@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6752343f86a5f485d51c13014b1fe661 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6752343f86a5f485d51c13014b1fe661" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6752343f86a5f485d51c13014b1fe661 = L.map(
+                "map_6752343f86a5f485d51c13014b1fe661",
+                {
+                    center: [44.95669, 5.587913333333333],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 15,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_6752343f86a5f485d51c13014b1fe661);
+
+            
+
+        
+    
+            var tile_layer_a519435c67ff8c7ced3d0588c876729e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a519435c67ff8c7ced3d0588c876729e.addTo(map_6752343f86a5f485d51c13014b1fe661);
+        
+    
+            var marker_e3b0ab054f1bfb3aed4c54e0de44bfec = L.marker(
+                [44.95669, 5.587913333333333],
+                {
+}
+            ).addTo(map_6752343f86a5f485d51c13014b1fe661);
+        
+    
+            var icon_8d3b76f3abc1c54af49f49f1906824a4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_307a766862284db32e570dc6b4203357 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b4f5df633aca7f73204c178b61b892da = $(`<div id="html_b4f5df633aca7f73204c178b61b892da" style="width: 100.0%; height: 100.0%;">Station 07 Lat: 44.95669 Lon: 5.587913333333333 UTM Easting: 5620212.739614215 UTM Northing: 830679.4564461317</div>`)[0];
+                popup_307a766862284db32e570dc6b4203357.setContent(html_b4f5df633aca7f73204c178b61b892da);
+            
+        
+
+        marker_e3b0ab054f1bfb3aed4c54e0de44bfec.bindPopup(popup_307a766862284db32e570dc6b4203357)
+        ;
+
+        
+    
+    
+                marker_e3b0ab054f1bfb3aed4c54e0de44bfec.setIcon(icon_8d3b76f3abc1c54af49f49f1906824a4);
+            
+    
+            var marker_4e3b653c0423e61623d98ef54b0f2151 = L.marker(
+                [44.95650166666667, 5.588016666666666],
+                {
+}
+            ).addTo(map_6752343f86a5f485d51c13014b1fe661);
+        
+    
+            var icon_5e2ee3fd3fe5b78540a4ff45efab4522 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0478603ce4d965ab6bf9ebeb72b5bcf4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af4ca26d4fb9b263db0d0f2b8b0d0910 = $(`<div id="html_af4ca26d4fb9b263db0d0f2b8b0d0910" style="width: 100.0%; height: 100.0%;">Station 09 Lat: 44.95650166666667 Lon: 5.588016666666666 UTM Easting: 5620183.488031803 UTM Northing: 830692.2829449306</div>`)[0];
+                popup_0478603ce4d965ab6bf9ebeb72b5bcf4.setContent(html_af4ca26d4fb9b263db0d0f2b8b0d0910);
+            
+        
+
+        marker_4e3b653c0423e61623d98ef54b0f2151.bindPopup(popup_0478603ce4d965ab6bf9ebeb72b5bcf4)
+        ;
+
+        
+    
+    
+                marker_4e3b653c0423e61623d98ef54b0f2151.setIcon(icon_5e2ee3fd3fe5b78540a4ff45efab4522);
+            
+    
+            var marker_a2410a57bf3b9f3b8dfe2c5dd5397bfb = L.marker(
+                [44.956541666666666, 5.587906666666667],
+                {
+}
+            ).addTo(map_6752343f86a5f485d51c13014b1fe661);
+        
+    
+            var icon_3fae9080b6207db88bdf4a1f276d75f6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_41936ec66e07431f1a0a86d1afdd0396 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb7d22f9137fdd151910de8d9f0a794c = $(`<div id="html_cb7d22f9137fdd151910de8d9f0a794c" style="width: 100.0%; height: 100.0%;">Station 16 Lat: 44.956541666666666 Lon: 5.587906666666667 UTM Easting: 5620190.84691162 UTM Northing: 830676.5360121139</div>`)[0];
+                popup_41936ec66e07431f1a0a86d1afdd0396.setContent(html_cb7d22f9137fdd151910de8d9f0a794c);
+            
+        
+
+        marker_a2410a57bf3b9f3b8dfe2c5dd5397bfb.bindPopup(popup_41936ec66e07431f1a0a86d1afdd0396)
+        ;
+
+        
+    
+    
+                marker_a2410a57bf3b9f3b8dfe2c5dd5397bfb.setIcon(icon_3fae9080b6207db88bdf4a1f276d75f6);
+            
+    
+            var marker_aa0821b4bca266eaabe473404e88d151 = L.marker(
+                [44.95663666666667, 5.58793],
+                {
+}
+            ).addTo(map_6752343f86a5f485d51c13014b1fe661);
+        
+    
+            var icon_0f91ce658e25b5cdd614daa00c6a3d1a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6059378ec0ea76c46a09016a49e28e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85df5ca6be124f726b054898864e6243 = $(`<div id="html_85df5ca6be124f726b054898864e6243" style="width: 100.0%; height: 100.0%;">Station 12 Lat: 44.95663666666667 Lon: 5.58793 UTM Easting: 5620204.619929048 UTM Northing: 830681.2258507226</div>`)[0];
+                popup_f6059378ec0ea76c46a09016a49e28e3.setContent(html_85df5ca6be124f726b054898864e6243);
+            
+        
+
+        marker_aa0821b4bca266eaabe473404e88d151.bindPopup(popup_f6059378ec0ea76c46a09016a49e28e3)
+        ;
+
+        
+    
+    
+                marker_aa0821b4bca266eaabe473404e88d151.setIcon(icon_0f91ce658e25b5cdd614daa00c6a3d1a);
+            
+    
+            var marker_fc6172f205a853cb71da275bc0c30ec3 = L.marker(
+                [44.956615, 5.588075],
+                {
+}
+            ).addTo(map_6752343f86a5f485d51c13014b1fe661);
+        
+    
+            var icon_0a2779f07dad733b4541e3751801ec29 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_33595aeb803928f2e35852e56028f27d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f26edc4bb7cdd64e64fc1d67386dad7b = $(`<div id="html_f26edc4bb7cdd64e64fc1d67386dad7b" style="width: 100.0%; height: 100.0%;">Station 10 Lat: 44.956615 Lon: 5.588075 UTM Easting: 5620199.521996504 UTM Northing: 830702.3882715754</div>`)[0];
+                popup_33595aeb803928f2e35852e56028f27d.setContent(html_f26edc4bb7cdd64e64fc1d67386dad7b);
+            
+        
+
+        marker_fc6172f205a853cb71da275bc0c30ec3.bindPopup(popup_33595aeb803928f2e35852e56028f27d)
+        ;
+
+        
+    
+    
+                marker_fc6172f205a853cb71da275bc0c30ec3.setIcon(icon_0a2779f07dad733b4541e3751801ec29);
+            
+    
+            var marker_fc6bda55439ba8b4bee67a350be24949 = L.marker(
+                [44.95668333333333, 5.588071666666667],
+                {
+}
+            ).addTo(map_6752343f86a5f485d51c13014b1fe661);
+        
+    
+            var icon_417d252b9ee7e5b2a51e85df19618925 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1411e248a7254dde56871ca0174c9b73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_964f382c18a0caa302fd91933d1e7793 = $(`<div id="html_964f382c18a0caa302fd91933d1e7793" style="width: 100.0%; height: 100.0%;">Station 11 Lat: 44.95668333333333 Lon: 5.588071666666667 UTM Easting: 5620209.690763065 UTM Northing: 830702.7864646979</div>`)[0];
+                popup_1411e248a7254dde56871ca0174c9b73.setContent(html_964f382c18a0caa302fd91933d1e7793);
+            
+        
+
+        marker_fc6bda55439ba8b4bee67a350be24949.bindPopup(popup_1411e248a7254dde56871ca0174c9b73)
+        ;
+
+        
+    
+    
+                marker_fc6bda55439ba8b4bee67a350be24949.setIcon(icon_417d252b9ee7e5b2a51e85df19618925);
+            
+    
+            var marker_2aa9c7e2bdd6f24b39f1a0f00143bed0 = L.marker(
+                [44.95655, 5.588213333333333],
+                {
+}
+            ).addTo(map_6752343f86a5f485d51c13014b1fe661);
+        
+    
+            var icon_e1b0fb91b502ac7b512a0f5e95028a6c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a6e5a6e8789fe1c75478f69176ccaf8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f9f430a622ca2c49109c40bc6394151 = $(`<div id="html_9f9f430a622ca2c49109c40bc6394151" style="width: 100.0%; height: 100.0%;">Station 01 Lat: 44.95655 Lon: 5.588213333333333 UTM Easting: 5620188.089844697 UTM Northing: 830721.9995436998</div>`)[0];
+                popup_a6e5a6e8789fe1c75478f69176ccaf8a.setContent(html_9f9f430a622ca2c49109c40bc6394151);
+            
+        
+
+        marker_2aa9c7e2bdd6f24b39f1a0f00143bed0.bindPopup(popup_a6e5a6e8789fe1c75478f69176ccaf8a)
+        ;
+
+        
+    
+    
+                marker_2aa9c7e2bdd6f24b39f1a0f00143bed0.setIcon(icon_e1b0fb91b502ac7b512a0f5e95028a6c);
+            
+    
+            var marker_f8ccc942085e567170d86167c00bd288 = L.marker(
+                [44.95666, 5.588211666666667],
+                {
+}
+            ).addTo(map_6752343f86a5f485d51c13014b1fe661);
+        
+    
+            var icon_155c2704231d13a7b9a8f36080f9c2be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f7ec0595db1c990a482d9580d87b464b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2815e9b8805723e12cf291702c750135 = $(`<div id="html_2815e9b8805723e12cf291702c750135" style="width: 100.0%; height: 100.0%;">Station 04 Lat: 44.95666 Lon: 5.588211666666667 UTM Easting: 5620204.410905468 UTM Northing: 830723.1876660123</div>`)[0];
+                popup_f7ec0595db1c990a482d9580d87b464b.setContent(html_2815e9b8805723e12cf291702c750135);
+            
+        
+
+        marker_f8ccc942085e567170d86167c00bd288.bindPopup(popup_f7ec0595db1c990a482d9580d87b464b)
+        ;
+
+        
+    
+    
+                marker_f8ccc942085e567170d86167c00bd288.setIcon(icon_155c2704231d13a7b9a8f36080f9c2be);
+            
+    
+            var marker_c39bd4562c8137decb15791a859a7289 = L.marker(
+                [44.95650333333333, 5.588166666666667],
+                {
+}
+            ).addTo(map_6752343f86a5f485d51c13014b1fe661);
+        
+    
+            var icon_1f2d81970a613884423e78554e207bd4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_251a6285010a3a012a5224445bc33f68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_826a4a2a341332b17e271bd8f8503db2 = $(`<div id="html_826a4a2a341332b17e271bd8f8503db2" style="width: 100.0%; height: 100.0%;">Station 03 Lat: 44.95650333333333 Lon: 5.588166666666667 UTM Easting: 5620181.782441408 UTM Northing: 830714.4891026663</div>`)[0];
+                popup_251a6285010a3a012a5224445bc33f68.setContent(html_826a4a2a341332b17e271bd8f8503db2);
+            
+        
+
+        marker_c39bd4562c8137decb15791a859a7289.bindPopup(popup_251a6285010a3a012a5224445bc33f68)
+        ;
+
+        
+    
+    
+                marker_c39bd4562c8137decb15791a859a7289.setIcon(icon_1f2d81970a613884423e78554e207bd4);
+            
+    
+            var marker_34dc95c5de8a55903aec68ca22d6b719 = L.marker(
+                [44.956615, 5.588075],
+                {
+}
+            ).addTo(map_6752343f86a5f485d51c13014b1fe661);
+        
+    
+            var icon_7485e0f91f7b316b33421b21aeba17e3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a149f4f94e61c9b43ed37663dadad4c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7adb7f2b9ce5e781397defad46365f4a = $(`<div id="html_7adb7f2b9ce5e781397defad46365f4a" style="width: 100.0%; height: 100.0%;">Broad-band Lat: 44.956615 Lon: 5.588075 UTM Easting: 5620199.521996504 UTM Northing: 830702.3882715754</div>`)[0];
+                popup_a149f4f94e61c9b43ed37663dadad4c5.setContent(html_7adb7f2b9ce5e781397defad46365f4a);
+            
+        
+
+        marker_34dc95c5de8a55903aec68ca22d6b719.bindPopup(popup_a149f4f94e61c9b43ed37663dadad4c5)
+        ;
+
+        
+    
+    
+                marker_34dc95c5de8a55903aec68ca22d6b719.setIcon(icon_7485e0f91f7b316b33421b21aeba17e3);
+            
+    
+        function geo_json_54d450075653c629c9f5e63c05a844d3_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"color": "green", "dashArray": "5, 5", "fillColor": "none", "weight": 2};
+            }
+        }
+
+        function geo_json_54d450075653c629c9f5e63c05a844d3_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_54d450075653c629c9f5e63c05a844d3 = L.geoJson(null, {
+                onEachFeature: geo_json_54d450075653c629c9f5e63c05a844d3_onEachFeature,
+            
+                style: geo_json_54d450075653c629c9f5e63c05a844d3_styler,
+            ...{
+}
+        });
+
+        function geo_json_54d450075653c629c9f5e63c05a844d3_add (data) {
+            geo_json_54d450075653c629c9f5e63c05a844d3
+                .addData(data);
+        }
+            geo_json_54d450075653c629c9f5e63c05a844d3_add({"features": [{"geometry": {"coordinates": [[[5.588213333333333, 44.95650166666667], [5.588213333333333, 44.95669], [5.587906666666667, 44.95669], [5.587906666666667, 44.95650166666667], [5.588213333333333, 44.95650166666667]]], "type": "Polygon"}, "id": "0", "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+            geo_json_54d450075653c629c9f5e63c05a844d3.addTo(map_6752343f86a5f485d51c13014b1fe661);
+        
+</script>
+</html>
